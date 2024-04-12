@@ -1,0 +1,18 @@
+server:
+  port: 8000
+  address: localhost
+  tokenKey: webProgramming
+
+database:
+  port: 5432
+  address: localhost
+  user: postgres
+  password: postgres
+  dbname: postgres
+
+s3:
+  accessKey: dbe17ff1-333f-4634-ad02-cb08054e8e04
+  secretKey: cf2a8e28beb07d3e4f9b261f943970c4dcbc51024d89b0c2ce594178adf1c775
+  bucket: web-messenger
+  endpoint: s3.ir-thr-at1.arvanstorage.ir
+  region: default
